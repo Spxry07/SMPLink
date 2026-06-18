@@ -1,0 +1,9 @@
+name: SMPLink
+version: '1.0'
+main: dev.spxry.smplink.SMPLink
+api-version: '1.21'
+
+commands:
+  discord:
+    description: Link your Minecraft account to Discord
+    usage: /discord link <code>

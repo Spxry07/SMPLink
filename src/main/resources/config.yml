@@ -1,0 +1,17 @@
+debug: false
+
+bot-url: "http://localhost:25753/api/link/confirm"
+link-secret: "grapesmp-link-secret-2024"
+
+command-name: "discord"
+subcommand-link: "link"
+
+http-timeout-seconds: 10
+
+messages:
+  success: "&a✅ Your account has been linked! Check your Discord DMs."
+  invalid-code: "&c❌ That code is invalid or has already been used."
+  expired: "&c❌ That code has expired. Run /link start in Discord again."
+  error: "&c❌ Could not reach the link server. Try again later."
+  usage: "&7Usage: /discord link <code>"
+  player-only: "&cThis command can only be used by players."
