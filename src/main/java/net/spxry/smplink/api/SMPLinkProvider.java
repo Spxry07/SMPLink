@@ -1,4 +1,4 @@
-package dev.spxry.smplink.api;
+package net.spxry.smplink.api;
 
 public final class SMPLinkProvider {
 

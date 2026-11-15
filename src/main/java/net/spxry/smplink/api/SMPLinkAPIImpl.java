@@ -1,6 +1,6 @@
-package dev.spxry.smplink.api;
+package net.spxry.smplink.api;
 
-import dev.spxry.smplink.SMPLink;
+import net.spxry.smplink.SMPLink;
 import org.bukkit.entity.Player;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -46,7 +46,8 @@ public final class SMPLinkAPIImpl implements SMPLinkAPI {
                     case 200 -> {
                         var discordId = extractDiscordId(response.body());
                         var event = new LinkSuccessEvent(player, player.getUniqueId(), discordId);
-                        plugin.getServer().getPluginManager().callEvent(event);
+                        plugin.getServer().getGlobalRegionScheduler().run(plugin, t ->
+                                plugin.getServer().getPluginManager().callEvent(event));
                         yield LinkResult.success(discordId);
                     }
                     case 404 -> LinkResult.failure(SMPLinkAPI.FailureReason.INVALID_CODE);

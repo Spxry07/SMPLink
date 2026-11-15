@@ -1,7 +1,8 @@
 name: SMPLink
 version: '1.0'
-main: dev.spxry.smplink.SMPLink
+main: net.spxry.smplink.SMPLink
 api-version: '1.21'
+author: Spxry Studios
 
 commands:
   discord:

@@ -1,9 +1,9 @@
-package dev.spxry.smplink;
+package net.spxry.smplink;
 
-import dev.spxry.smplink.api.SMPLinkAPIImpl;
-import dev.spxry.smplink.api.SMPLinkProvider;
-import dev.spxry.smplink.command.DiscordCommand;
-import dev.spxry.smplink.util.DebugLogger;
+import net.spxry.smplink.api.SMPLinkAPIImpl;
+import net.spxry.smplink.api.SMPLinkProvider;
+import net.spxry.smplink.command.DiscordCommand;
+import net.spxry.smplink.util.DebugLogger;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class SMPLink extends JavaPlugin {

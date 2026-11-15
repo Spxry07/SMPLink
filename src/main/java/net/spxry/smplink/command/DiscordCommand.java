@@ -1,9 +1,9 @@
-package dev.spxry.smplink.command;
+package net.spxry.smplink.command;
 
-import dev.spxry.smplink.SMPLink;
-import dev.spxry.smplink.api.SMPLinkAPI;
-import dev.spxry.smplink.api.SMPLinkProvider;
-import dev.spxry.smplink.util.ColorUtil;
+import net.spxry.smplink.SMPLink;
+import net.spxry.smplink.api.SMPLinkAPI;
+import net.spxry.smplink.api.SMPLinkProvider;
+import net.spxry.smplink.util.ColorUtil;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

@@ -1,4 +1,4 @@
-package dev.spxry.smplink.api;
+package net.spxry.smplink.api;
 
 import org.bukkit.entity.Player;
 import java.util.UUID;

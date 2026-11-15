@@ -1,4 +1,4 @@
-package dev.spxry.smplink.util;
+package net.spxry.smplink.util;
 
 import net.md_5.bungee.api.ChatColor;
 import java.util.regex.Matcher;

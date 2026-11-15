@@ -1,4 +1,4 @@
-package dev.spxry.smplink.util;
+package net.spxry.smplink.util;
 
 import org.bukkit.plugin.java.JavaPlugin;
 import java.util.logging.Level;
